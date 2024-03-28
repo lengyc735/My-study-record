@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" />
+  <title>腾讯视频</title>
+  <style type="text/css">
+    * {
+      margin: 0;
+    }
+
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .mod_player_section,
+    .mod_player {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      margin: auto;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    #video_container {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .txp_html_fullscreen .mod_player_section,
+    .txp_html_fullscreen .mod_player {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="mod_player_section txp_player_inframe">
+    <div id="video_container" class="txp_player"></div>
+    <div class="txp_none" id="mod_barrage_container"></div>
+  </div>
+  <script type="text/javascript" src="//vm.gtimg.cn/thumbplayer/iframe/loader.js"></script>
+</body>
+
+</html>
