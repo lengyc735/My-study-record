@@ -6,7 +6,7 @@ url = 'https://baidu.com'
 # https://www.baidu.com/s?wd=周杰伦
 
 '''
-  http/http    www.baidu.com   80/443    s     wd=周杰伦       # 
+  http/https    www.baidu.com   80/443    s     wd=周杰伦       # 
      协议          主机         端口     路径     参数         锚点
 '''
 # http 80
