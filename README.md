@@ -1,3 +1,12 @@
 # My-study-record
 
-余自幼便对编程怀有浓厚兴趣，闻Python之易学，遂以此为起点。朝夕勤学，志在证道，登编程之巅，渴望成为编程界的天帝。然道阻且长，需诸君相助，共赴编程之巅。
+## <span style="color:blue">想学的东西有很多 编程就是其中之一</span>
+
+# 账户信息统计
+![GitHub账户信息统计](https://github-stats.ubrong.com/api?username=lengyc735&show_icons=true&theme=tokyonight)
+
+# 使用语言
+![GitHub账户最常用语言](https://github-stats.ubrong.com/api/top-langs/?username=lengyc735&layout=compact&theme=tokyonight)
+
+# 访问次数
+![Visitor Count](https://profile-counter.glitch.me/{lengyc735}/count.svg)
