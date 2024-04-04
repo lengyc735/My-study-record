@@ -10,12 +10,13 @@
 
 
 from selenium import webdriver
-from time import sleep
+import time 
 from selenium.webdriver.common.by import By
 
 browser = webdriver.Edge()
 
 url = 'https://www.baidu.com/'
+browser.get(url)
 
 # 打开淘宝
 # browser.get('https://www.taobao.com')
@@ -50,6 +51,16 @@ url = 'https://www.baidu.com/'
 #print(browser.page_source)
 
 
-input = browser.find_element(By.ID, 'su')
-print('\n', input.get_attribute('class'))
-print('\n',input.tag_name('name'))
+time.sleep(2)
+value = browser.find_element(by=By.ID, value='su')
+
+# 获取标签属性
+print('\n', value.get_attribute('class'))
+# 获取标签名字
+print(value.tag_name)
+
+# 获取元素文本
+a = browser.find_element(By.LINK_TEXT,'新闻')
+print(a.text,'\n')
+
+browser.quit()
