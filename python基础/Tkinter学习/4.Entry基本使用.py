@@ -49,7 +49,7 @@ class Application(Frame):
         if username == '数据库对应的名字' and pwd == '数据库对应的密码':
             messagebox.showinfo('提示','您已成功登录')
         else:
-            messagebox.showinfo('提示','登录失败，用户名或密码错误')
+            messagebox.showinfo('提示','登录失败，用户名或密码错误 ')
 
 
 if __name__ == '__main__':
