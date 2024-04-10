@@ -23,7 +23,7 @@ class Application(Frame):
 
         # 图片显示
         global photo   # 把photo声明为全局变量，是为了防止本方法调用完，图片被回收(不显示)
-        photo = PhotoImage(file='./3.image.gif')   # 注意：格式只支持 ( gif )
+        photo = PhotoImage(file='3.image.gif')   # 注意：格式只支持 ( gif )
         self.label03 = Label(self,image=photo)
         self.label03.pack()
         
